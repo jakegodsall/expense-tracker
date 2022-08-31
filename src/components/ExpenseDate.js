@@ -1,6 +1,6 @@
-import './Calendar.js';
+import './ExpenseDate.js';
 
-function Calendar(props) {
+function ExpenseDate(props) {
     const month = props.date.toLocaleString('en-US', { month: 'long' });
     const day = props.date.toLocaleString('en-US', { day: '2-digit' });
     const year = props.date.getFullYear();
@@ -14,4 +14,4 @@ function Calendar(props) {
     )
 }
 
-export default Calendar;
+export default ExpenseDate;
